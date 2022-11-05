@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1{
@@ -7,7 +8,10 @@ h1{
    
 }
 .name-highlight{
-    color: orange;
+    color: #fa9b17;
+}
+.name-highlight:hover{
+    color: rgb(0, 157, 255);
 }
 .font{
     font-family: 'Aclonica', sans-serif;
@@ -21,4 +25,36 @@ h1{
 .halfwidth img{
     width: 100%;
     border-radius: 50%;
+    height: 85%;
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 20px;
+    transition-duration: 1s;
+    
+}
+.halfwidth img:hover{
+    transform: rotate(360deg);
+}
+
+.topbnn{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+#para{
+    margin-top: 40px;
+}
+
+.linkbttn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(246, 79, 13),tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.linkbttn:hover{
+    background-image: linear-gradient(45deg,rgb(33, 4, 255),rgb(4, 75, 255));
 }
