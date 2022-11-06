@@ -102,13 +102,28 @@ section{
     
 }
 .si-ex:hover{
-    background-color: rgb(194, 227, 255);
-    height: 82%;
+    background-color: rgb(224, 251, 255);
+    padding-right: 30px;
+}
+.si-ex1{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 30px;
+    height: 75%;
+    margin-bottom: 90px;
+    background-color: #fff;
+    transition-duration: 1s;
+    
+}
+
+.si-ex1:hover{
+    background-color: rgb(224, 251, 255);
+    padding-left: 60px;
+    
 }
 
 footer{
     margin-top: 700px;
-    height: 130px;
+    height: 135px;
     background-color:#fea761;
     margin-bottom: 50px;
     
@@ -118,6 +133,7 @@ footer{
     width: 60%;
     margin-left: 20%;
     transition-duration: 1s;
+
 }
 footer:hover{
     height:150px ;
@@ -135,7 +151,9 @@ footer a{
     color:rgb(0, 0, 0);
     padding: 15px;
     padding:0,30px;
+    
 }
+
 .fb:hover{
     color: rgb(0, 81, 255);
 }
@@ -147,4 +165,18 @@ footer a{
 }
 .you:hover{
     color: red;
+}
+.lol{
+    transition-duration: 1s;
+}
+.lol{
+      margin-left:0px;
+      height: 75%;
+      width: 75%; 
+      transition-duration: 1s;
+}
+
+.lol:hover{
+    height: 78%;
+    width: 78%;
 }
