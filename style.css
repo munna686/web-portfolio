@@ -7,6 +7,10 @@ h1{
     font-size: 50px;
    
 }
+p{
+    color: rgb(72, 72, 72);
+}
+
 .name-highlight{
     color: #fa9b17;
 }
@@ -21,9 +25,10 @@ h1{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    padding-top: 40px;
 }
 .halfwidth img{
-    width: 100%;
+    
     border-radius: 50%;
     height: 85%;
     width: 85%;
@@ -33,15 +38,18 @@ h1{
     
 }
 .halfwidth img:hover{
-    transform: rotate(360deg);
+    height: 87%;
+    width: 87%;
 }
 
 .topbnn{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 section{
     height: 500px;
+    padding-bottom: 0px;
 }
 #para{
     margin-top: 40px;
@@ -54,7 +62,46 @@ section{
     border-radius: 10px;
     color: white;
     font-weight: bold;
+    transition-duration: 1s;
+    
 }
 .linkbttn:hover{
     background-image: linear-gradient(45deg,rgb(33, 4, 255),rgb(4, 75, 255));
+    padding: 15px 25px; 
+}
+.name-highlight{
+    color: #fa9b17;
+    font-family: 'Aclonica', sans-serif;   
+}
+
+.dreamarea{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-top: 100px;
+
+}
+.ex-area{
+    float: left;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: left;
+    margin-top: 20px;
+}
+.name-highlight1{
+    color: #fa9b17;
+}
+.si-ex{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 30px;
+    height: 75%;
+    margin-bottom: 90px;
+    background-color: #fff;
+    transition-duration: 1s;
+    
+}
+.si-ex:hover{
+    background-color: rgb(194, 227, 255);
+    height: 82%;
 }
