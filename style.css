@@ -105,21 +105,7 @@ section{
     background-color: rgb(224, 251, 255);
     padding-right: 30px;
 }
-.si-ex1{
-    box-shadow: 10px 10px 40px gray ;
-    border-radius: 30px;
-    height: 75%;
-    margin-bottom: 90px;
-    background-color: #fff;
-    transition-duration: 1s;
-    
-}
 
-.si-ex1:hover{
-    background-color: rgb(224, 251, 255);
-    padding-left: 60px;
-    
-}
 
 footer{
     margin-top: 700px;
